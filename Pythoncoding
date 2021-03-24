@@ -1,0 +1,11 @@
+print("Flight Navigation System!!")
+print("Conversation between Sydney ATC and Captain Joe Rogers Flight GF789:")
+print("Sydney Air traffic control..Roger..This is Qantas Flight GF789 from London to Sydney asking for clearance to land")
+print("Flight GF789 maintain 3000fts..clear weather..wind 270..approach runway 32R")
+altitude=int(input("Enter the present altitude(in feets) at which the aircraft is flying:"))
+if altitude<=3000:
+  print("Flight 789..Maintain 3000..Runway 32R..Cleared for landing")
+elif altitude>3000 and altitude <=6000:
+  print("Flight 789..Hold altitude..Descent to 3000..landing gears down..prepare for touchdown")
+elif altitude>6000:
+  print("Flight 789..Direct approach overlooked..Prepare for go-around..cruise at 5000")
